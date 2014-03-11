@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D03CB41A18CFAE7F00D81FB4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03CB41918CFAE7F00D81FB4 /* Cocoa.framework */; };
+		D03CB42418CFAE7F00D81FB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D03CB42218CFAE7F00D81FB4 /* InfoPlist.strings */; };
+		D03CB42618CFAE7F00D81FB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D03CB42518CFAE7F00D81FB4 /* main.m */; };
+		D03CB42A18CFAE7F00D81FB4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D03CB42818CFAE7F00D81FB4 /* Credits.rtf */; };
+		D03CB42D18CFAE7F00D81FB4 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = D03CB42C18CFAE7F00D81FB4 /* Document.m */; };
+		D03CB43018CFAE7F00D81FB4 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03CB42E18CFAE7F00D81FB4 /* Document.xib */; };
+		D03CB43318CFAE7F00D81FB4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03CB43118CFAE7F00D81FB4 /* MainMenu.xib */; };
+		D03CB43618CFAE7F00D81FB4 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D03CB43418CFAE7F00D81FB4 /* Document.xcdatamodeld */; };
+		D03CB43818CFAE7F00D81FB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03CB43718CFAE7F00D81FB4 /* Images.xcassets */; };
+		D03CB43F18CFAE7F00D81FB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03CB43E18CFAE7F00D81FB4 /* XCTest.framework */; };
+		D03CB44018CFAE7F00D81FB4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03CB41918CFAE7F00D81FB4 /* Cocoa.framework */; };
+		D03CB44818CFAE7F00D81FB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D03CB44618CFAE7F00D81FB4 /* InfoPlist.strings */; };
+		D03CB44A18CFAE7F00D81FB4 /* NepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D03CB44918CFAE7F00D81FB4 /* NepTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D03CB44118CFAE7F00D81FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03CB40E18CFAE7F00D81FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03CB41518CFAE7F00D81FB4;
+			remoteInfo = Nep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D03CB41618CFAE7F00D81FB4 /* Nep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CB41918CFAE7F00D81FB4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D03CB41C18CFAE7F00D81FB4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D03CB41D18CFAE7F00D81FB4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D03CB41E18CFAE7F00D81FB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D03CB42118CFAE7F00D81FB4 /* Nep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nep-Info.plist"; sourceTree = "<group>"; };
+		D03CB42318CFAE7F00D81FB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D03CB42518CFAE7F00D81FB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D03CB42718CFAE7F00D81FB4 /* Nep-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nep-Prefix.pch"; sourceTree = "<group>"; };
+		D03CB42918CFAE7F00D81FB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D03CB42B18CFAE7F00D81FB4 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		D03CB42C18CFAE7F00D81FB4 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		D03CB42F18CFAE7F00D81FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		D03CB43218CFAE7F00D81FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D03CB43518CFAE7F00D81FB4 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		D03CB43718CFAE7F00D81FB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D03CB43D18CFAE7F00D81FB4 /* NepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CB43E18CFAE7F00D81FB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D03CB44518CFAE7F00D81FB4 /* NepTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NepTests-Info.plist"; sourceTree = "<group>"; };
+		D03CB44718CFAE7F00D81FB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D03CB44918CFAE7F00D81FB4 /* NepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NepTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03CB41318CFAE7F00D81FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CB41A18CFAE7F00D81FB4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CB43A18CFAE7F00D81FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CB44018CFAE7F00D81FB4 /* Cocoa.framework in Frameworks */,
+				D03CB43F18CFAE7F00D81FB4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03CB40D18CFAE7F00D81FB4 = {
+			isa = PBXGroup;
+			children = (
+				D03CB41F18CFAE7F00D81FB4 /* Nep */,
+				D03CB44318CFAE7F00D81FB4 /* NepTests */,
+				D03CB41818CFAE7F00D81FB4 /* Frameworks */,
+				D03CB41718CFAE7F00D81FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D03CB41718CFAE7F00D81FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03CB41618CFAE7F00D81FB4 /* Nep.app */,
+				D03CB43D18CFAE7F00D81FB4 /* NepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03CB41818CFAE7F00D81FB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03CB41918CFAE7F00D81FB4 /* Cocoa.framework */,
+				D03CB43E18CFAE7F00D81FB4 /* XCTest.framework */,
+				D03CB41B18CFAE7F00D81FB4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D03CB41B18CFAE7F00D81FB4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03CB41C18CFAE7F00D81FB4 /* AppKit.framework */,
+				D03CB41D18CFAE7F00D81FB4 /* CoreData.framework */,
+				D03CB41E18CFAE7F00D81FB4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D03CB41F18CFAE7F00D81FB4 /* Nep */ = {
+			isa = PBXGroup;
+			children = (
+				D03CB42B18CFAE7F00D81FB4 /* Document.h */,
+				D03CB42C18CFAE7F00D81FB4 /* Document.m */,
+				D03CB42E18CFAE7F00D81FB4 /* Document.xib */,
+				D03CB43118CFAE7F00D81FB4 /* MainMenu.xib */,
+				D03CB43718CFAE7F00D81FB4 /* Images.xcassets */,
+				D03CB43418CFAE7F00D81FB4 /* Document.xcdatamodeld */,
+				D03CB42018CFAE7F00D81FB4 /* Supporting Files */,
+			);
+			path = Nep;
+			sourceTree = "<group>";
+		};
+		D03CB42018CFAE7F00D81FB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03CB42118CFAE7F00D81FB4 /* Nep-Info.plist */,
+				D03CB42218CFAE7F00D81FB4 /* InfoPlist.strings */,
+				D03CB42518CFAE7F00D81FB4 /* main.m */,
+				D03CB42718CFAE7F00D81FB4 /* Nep-Prefix.pch */,
+				D03CB42818CFAE7F00D81FB4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D03CB44318CFAE7F00D81FB4 /* NepTests */ = {
+			isa = PBXGroup;
+			children = (
+				D03CB44918CFAE7F00D81FB4 /* NepTests.m */,
+				D03CB44418CFAE7F00D81FB4 /* Supporting Files */,
+			);
+			path = NepTests;
+			sourceTree = "<group>";
+		};
+		D03CB44418CFAE7F00D81FB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03CB44518CFAE7F00D81FB4 /* NepTests-Info.plist */,
+				D03CB44618CFAE7F00D81FB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03CB41518CFAE7F00D81FB4 /* Nep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CB44D18CFAE7F00D81FB4 /* Build configuration list for PBXNativeTarget "Nep" */;
+			buildPhases = (
+				D03CB41218CFAE7F00D81FB4 /* Sources */,
+				D03CB41318CFAE7F00D81FB4 /* Frameworks */,
+				D03CB41418CFAE7F00D81FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nep;
+			productName = Nep;
+			productReference = D03CB41618CFAE7F00D81FB4 /* Nep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D03CB43C18CFAE7F00D81FB4 /* NepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CB45018CFAE7F00D81FB4 /* Build configuration list for PBXNativeTarget "NepTests" */;
+			buildPhases = (
+				D03CB43918CFAE7F00D81FB4 /* Sources */,
+				D03CB43A18CFAE7F00D81FB4 /* Frameworks */,
+				D03CB43B18CFAE7F00D81FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D03CB44218CFAE7F00D81FB4 /* PBXTargetDependency */,
+			);
+			name = NepTests;
+			productName = NepTests;
+			productReference = D03CB43D18CFAE7F00D81FB4 /* NepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03CB40E18CFAE7F00D81FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = UCSF;
+				TargetAttributes = {
+					D03CB43C18CFAE7F00D81FB4 = {
+						TestTargetID = D03CB41518CFAE7F00D81FB4;
+					};
+				};
+			};
+			buildConfigurationList = D03CB41118CFAE7F00D81FB4 /* Build configuration list for PBXProject "Nep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03CB40D18CFAE7F00D81FB4;
+			productRefGroup = D03CB41718CFAE7F00D81FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03CB41518CFAE7F00D81FB4 /* Nep */,
+				D03CB43C18CFAE7F00D81FB4 /* NepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03CB41418CFAE7F00D81FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CB43018CFAE7F00D81FB4 /* Document.xib in Resources */,
+				D03CB43818CFAE7F00D81FB4 /* Images.xcassets in Resources */,
+				D03CB42418CFAE7F00D81FB4 /* InfoPlist.strings in Resources */,
+				D03CB42A18CFAE7F00D81FB4 /* Credits.rtf in Resources */,
+				D03CB43318CFAE7F00D81FB4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CB43B18CFAE7F00D81FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CB44818CFAE7F00D81FB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03CB41218CFAE7F00D81FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CB43618CFAE7F00D81FB4 /* Document.xcdatamodeld in Sources */,
+				D03CB42D18CFAE7F00D81FB4 /* Document.m in Sources */,
+				D03CB42618CFAE7F00D81FB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D03CB43918CFAE7F00D81FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CB44A18CFAE7F00D81FB4 /* NepTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D03CB44218CFAE7F00D81FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D03CB41518CFAE7F00D81FB4 /* Nep */;
+			targetProxy = D03CB44118CFAE7F00D81FB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D03CB42218CFAE7F00D81FB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CB42318CFAE7F00D81FB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D03CB42818CFAE7F00D81FB4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CB42918CFAE7F00D81FB4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D03CB42E18CFAE7F00D81FB4 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CB42F18CFAE7F00D81FB4 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		D03CB43118CFAE7F00D81FB4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CB43218CFAE7F00D81FB4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D03CB44618CFAE7F00D81FB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CB44718CFAE7F00D81FB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D03CB44B18CFAE7F00D81FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D03CB44C18CFAE7F00D81FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D03CB44E18CFAE7F00D81FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nep/Nep-Prefix.pch";
+				INFOPLIST_FILE = "Nep/Nep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D03CB44F18CFAE7F00D81FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nep/Nep-Prefix.pch";
+				INFOPLIST_FILE = "Nep/Nep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D03CB45118CFAE7F00D81FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nep.app/Contents/MacOS/Nep";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nep/Nep-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NepTests/NepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D03CB45218CFAE7F00D81FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nep.app/Contents/MacOS/Nep";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nep/Nep-Prefix.pch";
+				INFOPLIST_FILE = "NepTests/NepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03CB41118CFAE7F00D81FB4 /* Build configuration list for PBXProject "Nep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CB44B18CFAE7F00D81FB4 /* Debug */,
+				D03CB44C18CFAE7F00D81FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03CB44D18CFAE7F00D81FB4 /* Build configuration list for PBXNativeTarget "Nep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CB44E18CFAE7F00D81FB4 /* Debug */,
+				D03CB44F18CFAE7F00D81FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D03CB45018CFAE7F00D81FB4 /* Build configuration list for PBXNativeTarget "NepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CB45118CFAE7F00D81FB4 /* Debug */,
+				D03CB45218CFAE7F00D81FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D03CB43418CFAE7F00D81FB4 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D03CB43518CFAE7F00D81FB4 /* Document.xcdatamodel */,
+			);
+			currentVersion = D03CB43518CFAE7F00D81FB4 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D03CB40E18CFAE7F00D81FB4 /* Project object */;
+}
