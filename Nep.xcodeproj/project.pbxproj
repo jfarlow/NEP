@@ -20,6 +20,18 @@
 		D03CB44018CFAE7F00D81FB4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03CB41918CFAE7F00D81FB4 /* Cocoa.framework */; };
 		D03CB44818CFAE7F00D81FB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D03CB44618CFAE7F00D81FB4 /* InfoPlist.strings */; };
 		D03CB44A18CFAE7F00D81FB4 /* NepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D03CB44918CFAE7F00D81FB4 /* NepTests.m */; };
+		D03CB49818CFAEAB00D81FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D03CB49718CFAEAB00D81FB4 /* AppDelegate.m */; };
+		D03CB49B18CFAEE500D81FB4 /* nep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D03CB49918CFAEE500D81FB4 /* nep.xcdatamodeld */; };
+		D0902CAA18D0E6370092CEDE /* Slice.m in Sources */ = {isa = PBXBuildFile; fileRef = D0902CA918D0E6370092CEDE /* Slice.m */; };
+		D0902CB018D0E6380092CEDE /* Characteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = D0902CAF18D0E6380092CEDE /* Characteristic.m */; };
+		D0902CB318D0E6380092CEDE /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D0902CB218D0E6380092CEDE /* Category.m */; };
+		D0B8EAE218E631D1006E6A50 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B8EAE118E631D1006E6A50 /* AVKit.framework */; };
+		D0B8EAE518E63207006E6A50 /* MovieCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B8EAE418E63207006E6A50 /* MovieCanvas.m */; };
+		D0B8EAED18E634A2006E6A50 /* Dataset.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B8EAEC18E634A2006E6A50 /* Dataset.m */; };
+		D0B8EAEF18E63EC7006E6A50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B8EAEE18E63EC7006E6A50 /* AVFoundation.framework */; };
+		D0B8EAF118E63ECD006E6A50 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B8EAF018E63ECD006E6A50 /* QuartzCore.framework */; };
+		D0C2666018D0474D0088D698 /* ClassSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C2665F18D0474D0088D698 /* ClassSelectorView.m */; };
+		D0C39D7418D015D900353F4B /* ImageCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C39D7318D015D900353F4B /* ImageCanvas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +66,26 @@
 		D03CB44518CFAE7F00D81FB4 /* NepTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NepTests-Info.plist"; sourceTree = "<group>"; };
 		D03CB44718CFAE7F00D81FB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D03CB44918CFAE7F00D81FB4 /* NepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NepTests.m; sourceTree = "<group>"; };
+		D03CB49618CFAEAB00D81FB4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D03CB49718CFAEAB00D81FB4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D03CB49A18CFAEE500D81FB4 /* nep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nep.xcdatamodel; sourceTree = "<group>"; };
+		D0902CA818D0E6370092CEDE /* Slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slice.h; sourceTree = "<group>"; };
+		D0902CA918D0E6370092CEDE /* Slice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slice.m; sourceTree = "<group>"; };
+		D0902CAE18D0E6380092CEDE /* Characteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Characteristic.h; sourceTree = "<group>"; };
+		D0902CAF18D0E6380092CEDE /* Characteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Characteristic.m; sourceTree = "<group>"; };
+		D0902CB118D0E6380092CEDE /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		D0902CB218D0E6380092CEDE /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		D0B8EAE118E631D1006E6A50 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D0B8EAE318E63207006E6A50 /* MovieCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCanvas.h; sourceTree = "<group>"; };
+		D0B8EAE418E63207006E6A50 /* MovieCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCanvas.m; sourceTree = "<group>"; };
+		D0B8EAEB18E634A2006E6A50 /* Dataset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dataset.h; sourceTree = "<group>"; };
+		D0B8EAEC18E634A2006E6A50 /* Dataset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dataset.m; sourceTree = "<group>"; };
+		D0B8EAEE18E63EC7006E6A50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D0B8EAF018E63ECD006E6A50 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D0C2665E18D0474D0088D698 /* ClassSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassSelectorView.h; sourceTree = "<group>"; };
+		D0C2665F18D0474D0088D698 /* ClassSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassSelectorView.m; sourceTree = "<group>"; };
+		D0C39D7218D015D900353F4B /* ImageCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCanvas.h; sourceTree = "<group>"; };
+		D0C39D7318D015D900353F4B /* ImageCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCanvas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B8EAF118E63ECD006E6A50 /* QuartzCore.framework in Frameworks */,
+				D0B8EAEF18E63EC7006E6A50 /* AVFoundation.framework in Frameworks */,
+				D0B8EAE218E631D1006E6A50 /* AVKit.framework in Frameworks */,
 				D03CB41A18CFAE7F00D81FB4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +134,9 @@
 		D03CB41818CFAE7F00D81FB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0B8EAF018E63ECD006E6A50 /* QuartzCore.framework */,
+				D0B8EAEE18E63EC7006E6A50 /* AVFoundation.framework */,
+				D0B8EAE118E631D1006E6A50 /* AVKit.framework */,
 				D03CB41918CFAE7F00D81FB4 /* Cocoa.framework */,
 				D03CB43E18CFAE7F00D81FB4 /* XCTest.framework */,
 				D03CB41B18CFAE7F00D81FB4 /* Other Frameworks */,
@@ -119,9 +157,26 @@
 		D03CB41F18CFAE7F00D81FB4 /* Nep */ = {
 			isa = PBXGroup;
 			children = (
+				D03CB49618CFAEAB00D81FB4 /* AppDelegate.h */,
+				D03CB49718CFAEAB00D81FB4 /* AppDelegate.m */,
+				D03CB49918CFAEE500D81FB4 /* nep.xcdatamodeld */,
+				D0B8EAEB18E634A2006E6A50 /* Dataset.h */,
+				D0B8EAEC18E634A2006E6A50 /* Dataset.m */,
+				D0902CB118D0E6380092CEDE /* Category.h */,
+				D0902CB218D0E6380092CEDE /* Category.m */,
+				D0902CAE18D0E6380092CEDE /* Characteristic.h */,
+				D0902CAF18D0E6380092CEDE /* Characteristic.m */,
+				D0902CA818D0E6370092CEDE /* Slice.h */,
+				D0902CA918D0E6370092CEDE /* Slice.m */,
 				D03CB42B18CFAE7F00D81FB4 /* Document.h */,
 				D03CB42C18CFAE7F00D81FB4 /* Document.m */,
+				D0B8EAE318E63207006E6A50 /* MovieCanvas.h */,
+				D0B8EAE418E63207006E6A50 /* MovieCanvas.m */,
 				D03CB42E18CFAE7F00D81FB4 /* Document.xib */,
+				D0C2665E18D0474D0088D698 /* ClassSelectorView.h */,
+				D0C2665F18D0474D0088D698 /* ClassSelectorView.m */,
+				D0C39D7218D015D900353F4B /* ImageCanvas.h */,
+				D0C39D7318D015D900353F4B /* ImageCanvas.m */,
 				D03CB43118CFAE7F00D81FB4 /* MainMenu.xib */,
 				D03CB43718CFAE7F00D81FB4 /* Images.xcassets */,
 				D03CB43418CFAE7F00D81FB4 /* Document.xcdatamodeld */,
@@ -259,8 +314,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B8EAE518E63207006E6A50 /* MovieCanvas.m in Sources */,
+				D03CB49818CFAEAB00D81FB4 /* AppDelegate.m in Sources */,
+				D0B8EAED18E634A2006E6A50 /* Dataset.m in Sources */,
+				D0902CB018D0E6380092CEDE /* Characteristic.m in Sources */,
+				D0C39D7418D015D900353F4B /* ImageCanvas.m in Sources */,
+				D0902CB318D0E6380092CEDE /* Category.m in Sources */,
+				D03CB49B18CFAEE500D81FB4 /* nep.xcdatamodeld in Sources */,
 				D03CB43618CFAE7F00D81FB4 /* Document.xcdatamodeld in Sources */,
+				D0902CAA18D0E6370092CEDE /* Slice.m in Sources */,
 				D03CB42D18CFAE7F00D81FB4 /* Document.m in Sources */,
+				D0C2666018D0474D0088D698 /* ClassSelectorView.m in Sources */,
 				D03CB42618CFAE7F00D81FB4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +544,7 @@
 				D03CB44F18CFAE7F00D81FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D03CB45018CFAE7F00D81FB4 /* Build configuration list for PBXNativeTarget "NepTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +553,7 @@
 				D03CB45218CFAE7F00D81FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -499,6 +565,16 @@
 			);
 			currentVersion = D03CB43518CFAE7F00D81FB4 /* Document.xcdatamodel */;
 			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		D03CB49918CFAEE500D81FB4 /* nep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D03CB49A18CFAEE500D81FB4 /* nep.xcdatamodel */,
+			);
+			currentVersion = D03CB49A18CFAEE500D81FB4 /* nep.xcdatamodel */;
+			path = nep.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="characteristics" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Characteristic" inverseName="category" inverseEntity="Characteristic" syncable="YES"/>
+    </entity>
+    <entity name="Characteristic" representedClassName="Characteristic" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="locX" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="locY" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="misc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="validated" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="characteristics" inverseEntity="Category" syncable="YES"/>
+        <relationship name="dataset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dataset" inverseName="characteristics" inverseEntity="Dataset" syncable="YES"/>
+    </entity>
+    <entity name="Dataset" representedClassName="Dataset" syncable="YES">
+        <attribute name="condition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moviepath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="characteristics" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Characteristic" syncable="YES"/>
+        <relationship name="slices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Slice" inverseName="dataset" inverseEntity="Slice" syncable="YES"/>
+    </entity>
+    <entity name="Slice" representedClassName="Slice" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dataset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dataset" inverseName="slices" inverseEntity="Dataset" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Characteristic" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Dataset" positionX="0" positionY="0" width="128" height="165"/>
+        <element name="Slice" positionX="0" positionY="0" width="128" height="90"/>
+    </elements>
+</model>
