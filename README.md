@@ -5,6 +5,7 @@ Identify and score different phenotypes observed in sets of movies.
 
 
 ===USAGE===
+
 1) Import a folder or set of movies into NEP.  The movies should be in a format openable and viewable in Quicktime.  
 
 2) In the 'Categories' menu, add phenotypes you're looking for, and assign them each a diferent color.
@@ -29,10 +30,10 @@ Identify and score different phenotypes observed in sets of movies.
 - Movies must be readable by quicktime.
 - Features and movies cannot be seen at the same time.  Press the 'show features' checkbox to hide the movie to reveal scored features.
 - Features are not currently assigned a time-stamp, but just an (x,y) position.
-- If the location of movies are changed, they will not be immediately readable and must be 'refound' by correcting the 'Path' variable in the Properties panel for the selected movie.
-- 
+- If the location of movies are changed, they will not be immediately readable and must be 'refound' by correcting the "Path" variable in the Properties panel for the selected movie.
 
 
 
 ===Contact===
+
 This software was designed for the Gartner Lab at UCSF by Justin Farlow.  The software is free for all to use and modify.
