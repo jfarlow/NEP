@@ -78,6 +78,10 @@
 -(void)ExportToFile:(NSString *)data withName:(NSString *)docName;
 
 
+- (IBAction)SelectPrevious:(id)sender;
+- (IBAction)SelectNext:(id)sender;
+
+
 @end
 
 

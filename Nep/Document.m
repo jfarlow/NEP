@@ -94,10 +94,10 @@
     featureDiamter = 10;
     
     
-    [DatasetControllerOutlet addObserver:MovieCanvasOutlet forKeyPath:@"selection" options:NSKeyValueObservingOptionNew context:NULL];
+   // [DatasetControllerOutlet addObserver:MovieCanvasOutlet forKeyPath:@"selection" options:NSKeyValueObservingOptionNew context:NULL];
     
     
-    [DatasetControllerOutlet addObserver:MovieCanvasOutlet forKeyPath:@"selection" options:NSKeyValueObservingOptionNew context:NULL];
+//    [DatasetControllerOutlet addObserver:MovieCanvasOutlet forKeyPath:@"selection" options:NSKeyValueObservingOptionNew context:NULL];
     
     
 
@@ -463,6 +463,29 @@
         NSURL *fileURL = [[panel URL] URLByAppendingPathExtension:@"csv"];
         [data writeToURL:fileURL atomically:NO encoding:NSUTF8StringEncoding error:nil];
     }
+}
+
+- (IBAction)SelectPrevious:(id)sender {
+    
+    NSInteger curIndex = [DatasetControllerOutlet selectionIndex];
+    
+    if (curIndex > 0) {
+        [DatasetControllerOutlet setSelectionIndex:DatasetControllerOutlet.selectionIndex - 1];
+    }
+    Dataset *myData=  [[DatasetControllerOutlet selectedObjects] objectAtIndex:0];
+    NSURL *movieURL =[NSURL URLWithString:myData.moviepath];
+    [MovieCanvasOutlet initPlayerWithURL:movieURL];
+}
+
+- (IBAction)SelectNext:(id)sender {
+    NSInteger curIndex = [DatasetControllerOutlet selectionIndex];
+    
+    if (curIndex < [DatasetControllerOutlet.arrangedObjects count] - 1) {
+        [DatasetControllerOutlet setSelectionIndex:DatasetControllerOutlet.selectionIndex + 1];
+    }
+    Dataset *myData=  [[DatasetControllerOutlet selectedObjects] objectAtIndex:0];
+    NSURL *movieURL =[NSURL URLWithString:myData.moviepath];
+    [MovieCanvasOutlet initPlayerWithURL:movieURL];
 }
 
 
